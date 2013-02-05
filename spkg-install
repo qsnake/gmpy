@@ -8,4 +8,4 @@ fi
 
 set -e
 
-python setup.py install
+CFLAGS="-I$SPKG_LOCAL/include" python setup.py install
