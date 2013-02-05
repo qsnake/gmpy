@@ -31,8 +31,8 @@ for token in sys.argv:
         except:
             pass
 
-use_mpc = True
-use_mpfr = True
+use_mpc = False
+use_mpfr = False
 
 incdirs = None
 libdirs = None
